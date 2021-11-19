@@ -1,0 +1,176 @@
+html {
+    font-family: sans-serif;
+}
+
+body {
+    color: rgb(224, 219, 219);
+    background: #6c757d;
+}
+
+.container {
+    max-width: 950px !important;
+}
+
+.whitespace {
+    height: 100px;
+    width: 100%;
+}
+
+img.banner {
+    display: none;
+}
+
+
+
+/* Font sizes */
+.name {
+    font-size: calc(95% + 1vw + 1vh);
+}
+
+.personal_description {
+    font-size: calc(35% + 1vw + 1vh);
+}
+
+.title-text-responsive {
+    font-size: calc(60% + 1vw + 1vh);
+}
+
+.text-responsive {
+    font-size: calc(20% + 1vw + 1vh);
+}
+
+
+/* about me column */
+.responsive-image {
+    width: 150px;
+    height: auto;
+    border: 0.5rem solid rgba(42, 212, 30, 0.2);
+    border-radius: 50%;
+}
+
+.about_me_column {
+    max-width: 950px;
+}
+
+
+/* navigation bar */
+.nav-link:hover {
+    color: teal !important;
+}
+
+
+/* social media icons */
+a.social_media {
+    display: inline-block;
+    margin: 0.5%;
+    width: 40px;
+    height: 40px;
+    transition: all .5s;
+}
+
+a.social_media:hover {
+    transform: scale(0.9) rotate(10deg);
+}
+
+a.twitter {
+    background-image: url(../images/twitter.svg);
+}
+
+a.github {
+    background-image: url(../images/github.svg);
+}
+
+a.linkedin {
+    background-image: url(../images/linkedin.svg);
+}
+
+
+
+/* cards */
+.card {
+    background: #526d5c;
+}
+
+.card-header {
+    background: #26292c !important;
+    color: white;
+}
+
+.card-body {
+    font-size: 15px;
+}
+
+
+.individual_project {
+    width: 100%;
+    max-width: 550px;
+    margin: 2% auto;
+}
+
+
+/* skill items group */
+.list-group-item {
+    background: #26292c;
+    color: white;
+    margin: 1% !important;
+    border-radius: 5px !important;
+}
+
+.list-group-item:hover {
+    color: teal;
+}
+
+/* Github and Demo Links */
+p .githubLink {
+    padding: 5px;
+    border-radius: 10px;
+    background: #26292c;
+    text-decoration: none;
+}
+
+
+@media only screen and (min-width: 800px) {
+    .individual_project {
+        width: 45%;
+        max-width: 500px;
+    }
+
+    img.banner {
+        display: block;
+    }
+
+}
+
+
+@media only screen and (min-width: 950px) {
+    .name {
+        font-size: 35px;
+    }
+    .personal_description {
+        font-size: 20px;
+    }
+
+    .title-text-responsive {
+        font-size: 25px;
+    }
+    .text-responsive {
+        font-size: 18px;
+    }
+
+
+}
+
+@media only screen and (min-width: 2000px) {
+    .individual_project {
+        width: 33%;
+        max-width: 550px;
+        margin-left: auto;
+        margin-right: auto;
+        margin-bottom: 1%;
+        margin-top: 1%;
+    }
+
+    
+
+}
+

@@ -1,0 +1,256 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+    <link rel="stylesheet" href="css/custom.css?v=1">
+    <link rel="stylesheet" type="text/css" href="css/modal.css?v=2">
+    <script src="js/script.js?v=1" defer></script>
+    <title>Welcome to my Portfolio!</title>
+</head>
+<body>
+    <!-- navigation bar -->
+    <nav class="navbar navbar-expand-md navbar-dark bg-dark">
+        <a class="navbar-brand" href="#"></a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#thetarget">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="collapse navbar-collapse" id="thetarget">
+            <ul class="navbar-nav">
+                <li class="nav-item">
+                  <a class="nav-link text-white font-weight-bold" href="index.html">Home</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link text-white font-weight-bold" href="#">Portfolio</a>
+                </li>
+              </ul>
+        </div>
+    </nav>
+
+    <!-- banner photo -->
+    <div class="container-fluid">
+        <div class="row">
+          <img class='img-fluid w-100 banner' style="max-height: 915px;" src="images/banner.jpg" alt="" />
+        </div>
+    </div>
+
+    <div class="whitespace"></div>
+
+    <!-- portfolio -->
+    <div class="container-fluid w-100">
+        <div class="row">
+
+            <div class="card individual_project">
+                <div class="card-header font-weight-bold text-center">Todo Lists</div>
+                <div class="card-body">
+                    <div class="text-center"> <img id="0" class="item" src="images/todo_lists.png"></div>
+                    <br>
+                    <p id="00" class="hidden">
+                        This project was built from using HTML, CSS, CSS Grid, Flexbox, JavaScript, and Django. The user can 
+                        sign up for an account. After signing up, they can login to the app, create todo lists, and add tasks to each list.
+                    </p>
+                    <p class="text-center"><a class="text-white font-weight-bold githubLink" href="https://github.com/leeb2828/django_todo_app">GITHUB</a></p>
+                </div>
+            </div>
+
+            <div class="card individual_project">
+                <div class="card-header font-weight-bold text-center">Vacation Photo Gallery</div>
+                <div class="card-body">
+                    <div class="text-center"> <img id="1" class="item" src="images/vacation_photo_gallery.png"></div>
+                    <br>
+                    <p id="10" class="hidden">
+                        This project was built from scratch using HTML, CSS, CSS Grid, Flexbox, JavaScript, and 
+                        Python Flask. When the user selects a "vacation", a photo gallery appears. The user can 
+                        select a photo and, using the forward and backwards arrows, go through the entire gallery from
+                        the selected location.
+                    </p>
+                    <p class="text-center"><a class="text-white font-weight-bold githubLink" href="https://github.com/leeb2828/vacation-photo-gallery">GITHUB</a></p>
+                </div>
+            </div>
+
+            <div class="card individual_project">
+                <div class="card-header font-weight-bold text-center">Library Manager</div>
+                <div class="card-body">
+                    <div class="text-center"><img id="2" class="item" src="images/entire_library.png"></div>
+                    <br>
+                    <p id="20" class="hidden">
+                        This project was built using HTML, CSS, Python Flask, Flask SQLAlchemy, and using a sqlite database.
+                        I wrote all of the backend for this project.
+                        The home page displays the entire library of books using data fetched from the database.
+                        The user can add new, delete, or update books from the library.
+                    </p>
+                    <p class="text-center"><a class="text-white font-weight-bold githubLink" href="https://github.com/leeb2828/Library-Manager">GITHUB</a></p>
+                </div>
+            </div>
+
+            <div class="card individual_project">
+                <div class="card-header font-weight-bold text-center">Public API Requests</div>
+                <div class="card-body">
+                    <div class="text-center"><img id="3" class="item" src="images/pub_api_request.png"></div>
+                    <br>
+                    <p id="30" class="hidden">
+                        Fetch random employees using the Random User API and display them in a gallery. You can search employees 
+                        via the search box in the top-right corner of the page. Employees will hide or reappear, depending on your 
+                        search results. If you click directly on any of the 12 employees in the gallery, a single modal window with 
+                        more information about the employee you clicked on, will appear. You can use the "NEXT" and "PREV" buttons to 
+                        toggle back and forth between employees when the modal window is open. Every time you refresh the page, a 
+                        different set of 12 employees will appear. This was built using HTML, CSS, Flexbox, and JavaScript. I wrote 
+                        all of the JavaScript for this project.
+                    </p>
+                    <div class="text-center">
+                        <p><a class="text-white font-weight-bold githubLink" href="https://leeb2828.github.io/Public-API-Requests/">VIEW DEMO</a>
+                        &nbsp;&nbsp;
+                        <a class="text-white font-weight-bold githubLink" href="https://github.com/leeb2828/Public-API-Requests">GITHUB</a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="card individual_project">
+                <div class="card-header font-weight-bold text-center">Phrase Hunter</div>
+                <div class="card-body">
+                    <div class="text-center"><img id="4" class="item" src="images/phrase_hunter.png"></div>
+                    <br>
+                    <p id="40" class="hidden">
+                        I wrote all of the JavaScript for this project with the template provided.
+                        A game show app where the player has to guess all the letters in a random hidden phrase. The player can guess a letter by either<br>
+                        a.) Clicking the keys on the onscreen keyboard.<br>
+                        b.) Typing out the letters. The "hearts" from the scoreboard changes depending on if the player chose the correct letter or not.
+                    </p>
+                    <div class="text-center">
+                        <p><a class="text-white font-weight-bold githubLink" href="https://leeb2828.github.io/Phrase-Hunter/">VIEW DEMO</a>
+                        &nbsp;&nbsp;
+                        <a class="text-white font-weight-bold githubLink" href="https://github.com/leeb2828/Phrase-Hunter">GITHUB</a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="card individual_project">
+                <div class="card-header font-weight-bold text-center">Personal Learning Journal</div>
+                <div class="card-body">
+                    <div class="text-center"><img id="5" class="item" src="images/learning_journal.png"></div>
+                    <br>
+                    <p id="50" class="hidden">
+                        This project was built using HTML, CSS, Django, and uses a Sqlite database. I wrote all of the backend for this
+                        project and modified the CSS slightly. The user has to register for an account and login before they can use the app. 
+                        The home page displays all of the journal entries using data fetched from the database and greets the user by their 
+                        username. The user can click on an individual entry title to view the entire entry. The user can view other users
+                        entries, as well as create, delete, and modify only their own entries. 
+                    </p>
+                    <p class="text-center"><a class="text-white font-weight-bold githubLink" href="https://github.com/leeb2828/learning_journal">GITHUB</a></p>
+                </div>
+            </div>
+
+            <div class="card individual_project">
+                <div class="card-header font-weight-bold text-center">Math Quiz App</div>
+                <div class="card-body">
+                    <div class="text-center"><img id="6" class="item" src="images/question.png"></div>
+                    <br>
+                    <p id="60" class="hidden">
+                        HTML, CSS, and Python Flask were used for this project. I wrote all of the backend and modified a little bit of 
+                        the CSS. All of the quiz questions are fetched from a json file. A math question appears on the page 
+                        with three different button options; two incorrect options and one correct option. When the user answers correctly, the 
+                        buttons options will disappear and will be replaced by a "NEXT QUESTION" button and text that will let the user know they 
+                        answered correctly. It will let the user know if they answered incorrectly. This app also keeps a tally of the number of 
+                        correct and incorrect answers, and displays it to the screen.
+                    </p>
+                    <p class="text-center"><a class="text-white font-weight-bold githubLink" href="https://github.com/leeb2828/math_quiz_app">GITHUB</a></p>
+                </div>
+            </div>
+
+            
+            <div class="card individual_project">
+                <div class="card-header font-weight-bold text-center">Random Quote Generator</div>
+                <div class="card-body">
+                    <div class="text-center"><img id="7" class="item" src="images/random_quote_gen.png"></div>
+                    <br>
+                    <p id="70" class="hidden">
+                        HTML, CSS, and Python Flask were used for this project. I wrote all of the backend with some modifications to the CSS. All of the 
+                        quotes are fetched from an external json file. When the user clicks the "Show new quote" button on the top left of the screen, 
+                        a new quote displays. The quote includes the author, source, and date. 
+                    </p>
+                    <p class="text-center"><a class="text-white font-weight-bold githubLink" href="https://github.com/leeb2828/Random-Quote-Generator_PY">GITHUB</a></p>
+                </div>
+            </div>
+
+            <div class="card individual_project">
+                <div class="card-header font-weight-bold text-center">Simple Flask Form</div>
+                <div class="card-body">
+                    <div class="text-center"><img id="8" class="item" src="images/simple_flask_form.png"></div>
+                    <br>
+                    <p id="80" class="hidden">
+                        This project was built using HTML, CSS, Python Flask, Flask SQLAlchemy, Flask-WTF, and a Sqlite database. 
+                        I wrote all of the backend code with modifications to the HTML and CSS templates.
+                        The home page displays a form that the user can fill out (name, phone number, email, and job title).
+                        When the user fills out the form, their information is entered into the database. 
+                        A "Than you for Registering" page will display, and the user will have the option of entering a new user or 
+                        viewing the entire database of people. On the database page, the user can delete or modify a person's information.
+                    </p>
+                    <p class="text-center"><a class="text-white font-weight-bold githubLink" href="https://github.com/leeb2828/Simple-Flask-Form">GITHUB</a></p>
+                </div>
+            </div>
+
+            <div class="card individual_project">
+                <div class="card-header font-weight-bold text-center">Valley Forge National Park Photo Gallery</div>
+                <div class="card-body">
+                    <div class="text-center"><img id="9" class="item" src="images/valleyforgegallery.png"></div>
+                    <br>
+                    <p id="90" class="hidden">
+                        This project was built from scratch using HTML, CSS, Flexbox, and JavaScript. When
+                        the user clicks a photo, a modal with that selected photo appears in larger form, and 
+                        the rest of the pictures disappear. You have the option to close the modal or move to a 
+                        new photo, with the forward or backwards arrows.
+                    </p>
+                    <div class="text-center">
+                        <p><a class="text-white font-weight-bold githubLink" href="https://leeb2828.github.io/valley_forge_national_park/">VIEW DEMO</a>
+                        &nbsp;&nbsp;
+                        <a class="text-white font-weight-bold githubLink" href="https://github.com/leeb2828/valley_forge_national_park">GITHUB</a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="card individual_project">
+                <div class="card-header font-weight-bold text-center">My Resume</div>
+                <div class="card-body">
+                    <div class="text-center"><img id="10" class="item" src="images/resume.png"></div>
+                    <br>
+                    <p id="100" class="hidden">
+                        Simple resume built from scratch using only HTML and CSS. With added media queries, it is 
+                        mobile responsive.
+                    </p>
+
+                    <div class="text-center">
+                        <p><a class="text-white font-weight-bold githubLink" href="https://leeb2828.github.io/my_resume/">VIEW DEMO</a>
+                        &nbsp;&nbsp;
+                        <a class="text-white font-weight-bold githubLink" href="https://github.com/leeb2828/my_resume">GITHUB</a>
+                    </div>
+                    </p>
+                </div>
+            </div>
+
+            
+        
+        </div>
+    </div>
+
+    <!-- The modal container that pops up when the user clicks on a photo  -->
+    <section>
+        <div id="myModal">
+            <!-- HTML entity names -->
+            <span class="close">&times;</span>
+            
+            <img class="img_content">
+            <br>
+            <p class="modal_content text-responsive"></p>
+          
+        </div>
+    </section>
+
+
+    <div class="whitespace"></div>
+
+    <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script> 
+</body>
+</html>
